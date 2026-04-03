@@ -17,8 +17,8 @@ if not exist "%SCRIPT%" (
 )
 
 if "%~1"=="" (
-  echo [INFO] Ejecutando prueba rapida de Chapter 2 en CPU...
-  "%CONDA_EXE%" run -n holllm python "%SCRIPT%" --device cpu --local-files-only --sections generation,tokenizers --generation-model sshleifer/tiny-gpt2 --tokenizer-models sshleifer/tiny-gpt2 --prompt "Write one short sentence about token embeddings." --sample --max-new-tokens 30 --preview-tokens 20
+  echo [INFO] Ejecutando Chapter 2 - modo basico: tokens + embeddings + generacion...
+  "%CONDA_EXE%" run -n holllm python "%SCRIPT%" --device auto
   exit /b %ERRORLEVEL%
 )
 

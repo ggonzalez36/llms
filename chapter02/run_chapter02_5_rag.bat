@@ -17,7 +17,7 @@ if not exist "%SCRIPT%" (
 )
 
 if "%~1"=="" (
-  echo [INFO] Ejecutando Chapter 2.5 RAG con datos de ejemplo...
+  echo [INFO] Ejecutando Chapter 2.5 RAG - ejemplo basico...
   "%CONDA_EXE%" run -n holllm python "%SCRIPT%" --cache-home "%~dp0.chroma_home_%USERNAME%"
   exit /b %ERRORLEVEL%
 )

@@ -1,57 +1,39 @@
-# Chapter 2 - Tokens and Embeddings
+# Chapter 2 - Quick Practice
 
-Run Chapter 2 as a script:
+Minimal scripts for concept practice (no complex architecture).
 
-- `chapter02/chapter02_run.py`
+## Chapter 2 (`chapter02_run.py`)
 
-Quick run from `cmd`:
+Run all demos:
 
 ```cmd
-cd /d C:\Users\User\Documents\Playground\Hands-On-Large-Language-Models\chapter02
 run_chapter02.bat
 ```
 
-Run all main sections (may download models):
+Run only one section:
 
 ```cmd
-run_chapter02.bat --sections generation,tokenizers,contextual --device cpu
+run_chapter02.bat --mode tokens
+run_chapter02.bat --mode embeddings --device cuda
+run_chapter02.bat --mode generation
 ```
 
-Run only tokenizer comparison with custom models:
+## Chapter 2.5 RAG (`chapter02_5_rag_run.py`)
+
+Run basic RAG example:
 
 ```cmd
-run_chapter02.bat --sections tokenizers --tokenizer-models gpt2,bert-base-cased
-```
-
-## Chapter 2.5 - RAG (ChromaDB)
-
-Run the Chapter 2.5 RAG script:
-
-- `chapter02/chapter02_5_rag_run.py`
-
-Quick run from `cmd`:
-
-```cmd
-cd /d C:\Users\User\Documents\Playground\Hands-On-Large-Language-Models\chapter02
 run_chapter02_5_rag.bat
 ```
 
-Run with a custom query:
+Custom query:
 
 ```cmd
-run_chapter02_5_rag.bat --query "Como se representan las palabras matematicamente?"
+run_chapter02_5_rag.bat --query "Como se convierten frases en vectores?" --n-results 2
 ```
 
-Use persistent local storage instead of in-memory client:
+If cache path gives permissions error:
 
 ```cmd
-run_chapter02_5_rag.bat --persistent-path .chroma_data
+run_chapter02_5_rag.bat --cache-home .chroma_home_user
 ```
-
-Use a custom writable cache home for Chroma downloads:
-
-```cmd
-run_chapter02_5_rag.bat --cache-home .chroma_home
-```
-
-If you get permission errors in `~/.cache/chroma`, run with `--cache-home` as shown above.
