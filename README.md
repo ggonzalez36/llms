@@ -1,54 +1,54 @@
-# Hands-On Large Language Models - Repositorio Personal de Estudio
+# Hands-On Large Language Models - Personal Study Repository
 
-Este repositorio es una copia de trabajo con fines educativos para probar, ejecutar y adaptar localmente los ejercicios del libro *Hands-On Large Language Models*.
+This repository is a personal, educational workspace used to run, test, and adapt exercises from the book *Hands-On Large Language Models* in a local environment.
 
-No es el repositorio oficial del libro ni esta afiliado oficialmente con sus autores o su editorial.
+This is not the official repository for the book and is not officially affiliated with the authors or publisher.
 
-## Material original
+## Original Source
 
-El material original pertenece al proyecto publicado por Jay Alammar y Maarten Grootendorst:
+The original material is published by Jay Alammar and Maarten Grootendorst:
 
-- Libro: https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/
-- Repositorio oficial: https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
+- Book: https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/
+- Official repository: https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
 
-Si buscas la version de referencia, las notebooks originales o la documentacion oficial del libro, usa el repositorio original.
+If you need the authoritative reference version, official notebooks, or upstream documentation, please use the official repository.
 
-## Proposito de este repositorio
+## Purpose of This Repository
 
-Uso este repositorio para:
+This repository is used to:
 
-- ejecutar los ejercicios del libro en mi entorno local;
-- hacer pruebas tecnicas en CPU y en Windows;
-- agregar scripts auxiliares para correr ejemplos fuera de Jupyter;
-- ajustar algunos ejercicios para entenderlos mejor;
-- simplificar o mejorar ciertos pasos de configuracion para estudio personal.
+- run book exercises locally;
+- test workflows on CPU and Windows;
+- add helper scripts for running examples outside Jupyter;
+- adapt selected exercises to improve personal understanding;
+- simplify setup steps for repeatable local study.
 
-Algunos ejercicios fueron adaptados u optimizados respecto al material original para facilitar mi aprendizaje. Esos cambios son personales y no deben interpretarse como parte oficial del libro.
+Some exercises have been adapted or optimized compared to the upstream version to support learning and local execution. These changes are personal and should not be interpreted as official book content.
 
-## Cambios locales
+## Local Adaptations
 
-Entre los cambios de este repositorio se incluyen:
+This repository may include:
 
-- scripts para ejecutar ejemplos desde terminal;
-- ajustes de configuracion local para `conda`, CPU y Windows;
-- notas de setup para repetir los ejercicios con menos friccion;
-- pequenas modificaciones en notebooks cuando fue necesario para que funcionaran en este equipo.
+- terminal runner scripts;
+- local configuration adjustments for `conda`, CPU, and Windows;
+- setup notes for reproducible execution;
+- small notebook edits required to run correctly on this machine.
 
-## Licencia y atribucion
+## License and Attribution
 
-El repositorio original incluye una licencia Apache 2.0. Este repositorio conserva esa licencia en el archivo [LICENSE](LICENSE) y mantiene la atribucion al proyecto original.
+The original repository is released under Apache 2.0. This repository keeps the original license in [LICENSE](LICENSE) and maintains attribution to the upstream project.
 
-Repositorio original:
+Original repository:
 
 - https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
 
-Licencia original:
+Original license:
 
 - https://www.apache.org/licenses/LICENSE-2.0
 
-Si reutilizas este repositorio o partes derivadas de el, revisa primero la licencia original y conserva los avisos, atribuciones y archivos de licencia que correspondan.
-Los nombres del libro, de sus autores y del repositorio original se mencionan aqui solo con fines descriptivos, educativos y de atribucion.
+If you reuse this repository or derivative parts of it, review the original license first and preserve all applicable notices, attributions, and license files.
+References to the book title, author names, and upstream repository are provided strictly for descriptive, educational, and attribution purposes.
 
-## Nota
+## Note
 
-Este repositorio fue preparado como apoyo de estudio y practica personal. Para el material oficial, la documentacion principal y las versiones base de los ejercicios, consulta siempre el repositorio original del libro.
+This repository is maintained as a personal study and practice workspace. For official materials, primary documentation, and baseline exercise versions, always refer to the original book repository.
